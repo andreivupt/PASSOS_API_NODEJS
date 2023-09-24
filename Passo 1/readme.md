@@ -4,6 +4,8 @@
 * Documentar passos e comandos
 * Enviar para o gitHub
 
+<hr>
+
 #### Criar pasta para a aplicação
 ```
 mkdir projetoBackend
@@ -148,12 +150,14 @@ git remote add origin COLAR_URL
 git push -u origin main
 ```
 
-#### Atualize a página no gitHub e verifique se os arquivos foram enviados 
+### Atualize a página no gitHub e verifique se os arquivos foram enviados 
 * Com o projeto no servidor remoto podemos remover os arquivos na nossa máquina
 ```
 cd ..
 ```
 * Comando para acessar uma pasta anterior
+* Fechar o VSCode com o projeto aberto
+
 ```
 rm -rf projetoBackend
 ```
