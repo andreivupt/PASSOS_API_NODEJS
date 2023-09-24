@@ -3,7 +3,7 @@
 * Comando clone do git
 * Configurar pacotes instalados
 * Criar comando para rodar o servidor
-* Testar funções para retornar mensagens através do servidor
+* Testar servidor
 
 <hr>
 
@@ -24,11 +24,22 @@
 git clone URL_REPOSITORIO
 ```
 
+<img src="../assets/git_clone.png">
+
 #### Acessar pasta
-* Digitar o comando 'cd' para acessar a pasta com o nome do seu repositório
+* Digitar o comando 'cd' e o nome do seu repositório
+* cd (change directory): acessar outra pasta
 ```
 cd NOME_REPOSITORIO
 ```
+
+<img src="../assets/cd_projeto.png">
+
+#### Reinstalar os pacotes da aplicação
+```
+npm i
+```
+* Este comando irá recriar a pasta node_modules no projeto
 
 #### Criar arquivo .env na raiz do projeto
 * Este arquivo é utilizada para armazenar as variáveis que serão reutilizadas na aplicação
@@ -41,18 +52,21 @@ nano .env
 ```
 
 #### Digitar no arquivo .env
+```
+PORT = 3008
+```
 * Variável que contém a porta que o servidor estará rodando
 * Esta arquivo .env não enviamos pro gitHub, pois contém informações sensíveis do sistema
-```
-PORT = 3000
-```
 
 #### Adicionar arquivo .env no .gitignore
+```
+nano .gitignore
+```
 ```
 .env
 ```
 
-<img src="">
+<img src="../assets/git_ignore.png">
 
 #### Criar arquivo de exemplo para para as variáveis necessárias da aplicação
 * Como não enviamos o arquivo .env para o gitHub, precisamos criar o exemplo das variáveis necessárias da aplicação
@@ -66,7 +80,12 @@ nano .env.example
 PORT = 
 ```
 
-<img src="">
+<img src="../assets/env_example.png">
+
+#### Abrir o VSCode
+```
+code .
+```
 
 #### Abrir o arquivo app.js e digitar o código
 * Importar o pacote express (servidor)
@@ -95,7 +114,7 @@ app.set('port', process.env.PORT || 3333);
 module.exports = app;
 ```
 
-<img src="">
+<img src="../assets/app.js.png">
 
 
 #### Abrir o arquivo server.js e digitar os códigos
@@ -118,7 +137,7 @@ app.listen(port, () => {
 });
 ```
 
-<img src="">
+<img src="../assets/server_js.png">
 
 ## Depois de configurar os pacotes e o teste do servidor, vamos criar o comando para executar
 
@@ -128,18 +147,21 @@ app.listen(port, () => {
 "start":"nodemon src/server.js"
 ```
 
+<img src="../assets/cmm_start.png">
+
 #### Rodar o comando no termial com gitBash
 ```
 npm run start
 ```
 
-<img src="">
+<img src="../assets/npm_start_1.png">
 
 ## Conclusão do Passo 2
 #### URL do repositório com:
  * Estrutura do projeto 
  * Arquivo readme de documentação dos passos realizados
- * Configuração e teste da API
+ * Configuração 
+ * Retorno de teste da API
 
 #### Enviar a URL na tarefa do teams
- * Tarefa 2 - Configuração incial
+ * Tarefa 2 - Configuração inicial
