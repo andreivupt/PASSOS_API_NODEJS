@@ -148,6 +148,20 @@ git remote add origin COLAR_URL
 git push -u origin main
 ```
 
+#### Atualize a página no gitHub e verifique se os arquivos foram enviados 
+* Com o projeto no servidor remoto podemos remover os arquivos na nossa máquina
+```
+cd ..
+```
+* Comando para acessar uma pasta anterior
+```
+rm -rf projetoBackend
+```
+* rm (remove): comando utilizado para apagar arquivo
+* -r (recursive): apaga pastas e subpastas de forma recursiva
+* -f (force): não pergunta confirmações
+* projetoBackend: nome da pasta que contem os arquivos da aplicação
+
 ## Conclusão do Passo 1
 #### URL do repositório com:
  * Estrutura do projeto 
