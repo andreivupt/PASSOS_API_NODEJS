@@ -98,7 +98,7 @@ app.listen(port, () => console.log(`Run on port ${port}!`));
 
 #### Rodar o comando no termial com gitBash
 ```
-nom run start
+npm run start
 ```
 
 <img src="">
