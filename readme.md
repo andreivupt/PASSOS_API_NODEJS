@@ -8,11 +8,12 @@
 
 ## Ferramentas utilizadas
 * [NodeJS](https://nodejs.org/pt-br)
-* npm
-* git & gitHub
-* VSCode
-* MySql & Workbench
-* Insomnia
+* [npm](https://www.npmjs.com/)
+* [git](https://git-scm.com/)
+* [gitHub](https://github.com/)
+* [VSCode](https://code.visualstudio.com/)
+* [MySql & Workbench](https://www.mysql.com/)
+* [Insomnia](https://insomnia.rest/)
 
 ## Tecnologias
 * API REST
