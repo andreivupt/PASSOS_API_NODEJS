@@ -147,3 +147,11 @@ git remote add origin COLAR_URL
 ```
 git push -u origin main
 ```
+
+## Conclusão do Passo 1
+#### URL do repositório com:
+ * Estrutura do projeto 
+ * Arquivo readme de documentação dos passos realizados
+
+#### Enviar a URL na tarefa do teams
+ * Tarefa 1 - Projeto inicial no gitHub
