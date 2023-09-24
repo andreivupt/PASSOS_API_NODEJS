@@ -104,7 +104,20 @@ git init
 ```
 <img src="../assets/git_init.png">
 
+* Informar o seu nome e email
+* Altere o campo 'FIRST_NAME' e coloque o seu nome
+* Altere o campo 'EMAIL@EXAMPLE.COM' e coloque o seu email do gitHub
+```
+git config --global user.name "FIRST_NAME"
+```
+```
+ git config --global user.email "EMAIL@EXAMPLE.COM"
+```
+
 * Verificar arquivos que serão enviados ao gitHub
+```
+git status
+```
 
 <img src="../assets/git_status.png">
 
@@ -120,3 +133,17 @@ git commit -m 'estrutura do projeto'
 * Clicar no ponto indicado na imagem para copiar a URL do repositório
 
 <img src="../assets/repo_github.png">
+
+* De volta ao terminal, executar o comando para definir a branch main
+```
+git branch -M main
+```
+* Informar o repositório que queremos enviar os arquivos
+* Colar a URL do seu repositório copiada
+```
+git remote add origin COLAR_URL
+```
+* Enviar os arquivos para o gitHub
+```
+git push -u origin main
+```
