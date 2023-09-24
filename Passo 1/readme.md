@@ -2,7 +2,7 @@
 
 * Gerenciar projeto com gitBash
 * Documentar passos e comandos
-* Convenções de commit
+* Enviar para o gitHub
 
 #### Criar pasta para a aplicação
 ```
@@ -89,3 +89,34 @@ mkdir src/controllers
 mkdir src/routes
 ```
 * Pasta para gerenciar as rotas da API
+
+#### Validar estrutura do projeto
+
+* Confira se a pasta do seu projeto esta igual a imagem com as pastas e arquivos
+
+<img src="../assets/estrutura_incial.png">
+
+#### Enviar estrutura do projeto para o gitHub
+
+* Inicializar o gerenciador de arquivos .git
+```
+git init
+```
+<img src="../assets/git_init.png">
+
+* Verificar arquivos que serão enviados ao gitHub
+
+<img src="../assets/git_status.png">
+
+* Adicionar todos arquivos ao versionamento
+```
+git add .
+```
+* Salvar projeto e escrever comentário sobre o processo realizado
+```
+git commit -m 'estrutura do projeto'
+```
+* Criar um novo resositório no gitHub
+* Clicar no ponto indicado na imagem para copiar a URL do repositório
+
+<img src="../assets/repo_github.png">
