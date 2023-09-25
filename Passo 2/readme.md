@@ -66,6 +66,11 @@ nano .gitignore
 .env
 ```
 
+#### Abrir o VSCode
+```
+code .
+```
+
 <img src="../assets/git_ignore.png">
 
 #### Criar arquivo de exemplo para para as variáveis necessárias da aplicação
@@ -81,11 +86,6 @@ PORT =
 ```
 
 <img src="../assets/env_example.png">
-
-#### Abrir o VSCode
-```
-code .
-```
 
 #### Abrir o arquivo app.js e digitar o código
 * Importar o pacote express (servidor)

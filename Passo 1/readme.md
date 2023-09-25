@@ -43,6 +43,11 @@ npm i express nodemon dotenv
 * dotenv: gerencia as variáveis de ambiente dentro do projeto;
 * A confirmação da instalação dos pacotes pode ser vista na chave 'dependencies' no arquivo package.json, conforme imagem abaixo
 
+#### Abrir o VSCode
+```
+code .
+```
+
 <img src="../assets/dependencies.png">
 
 
@@ -131,7 +136,7 @@ git add .
 ```
 git commit -m 'estrutura do projeto'
 ```
-* Criar um novo resositório no gitHub
+* Criar um novo repositório no gitHub
 * Clicar no ponto indicado na imagem para copiar a URL do repositório
 
 <img src="../assets/repo_github.png">
