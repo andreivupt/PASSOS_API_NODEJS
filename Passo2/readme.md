@@ -156,6 +156,38 @@ npm run start
 
 <img src="../assets/npm_start_1.png">
 
+#### Atualizar projeto no gitHub
+* Adicionar todos arquivos ao versionamento
+```
+git add .
+```
+
+* Salvar projeto e escrever comentário sobre o processo realizado
+```
+git commit -m 'configuração do projeto'
+```
+
+* Enviar os arquivos atualizados para o gitHub
+```
+git push
+```
+
+### Atualize a página no gitHub e verifique se os arquivos foram atualizados 
+* Com o projeto no servidor remoto podemos remover os arquivos na nossa máquina
+```
+cd ..
+```
+* Comando para acessar uma pasta anterior
+* Fechar o VSCode com o projeto aberto
+
+```
+rm -rf projetoBackend
+```
+* rm (remove): comando utilizado para apagar arquivo
+* -r (recursive): apaga pastas e subpastas de forma recursiva
+* -f (force): não pergunta confirmações
+* projetoBackend: nome da pasta que contem os arquivos da aplicação
+
 ## Conclusão do Passo 2
 #### URL do repositório com:
  * Estrutura do projeto 
