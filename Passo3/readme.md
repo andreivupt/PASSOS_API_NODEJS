@@ -39,6 +39,11 @@ npm i
 ```
 * Este comando irá recriar a pasta node_modules no projeto
 
+#### Criar pastas dentro da pasta src
+```
+mkdir src/routes
+```
+
 #### Criar arquivo dentro da pasta routes
 ```
 touch src/routes/rotas.js
@@ -118,7 +123,7 @@ rm -rf projetoBackend
 * -f (force): não pergunta confirmações
 * projetoBackend: nome da pasta que contem os arquivos da aplicação
 
-## Conclusão do Passo 2
+## Conclusão do Passo 3
 #### URL do repositório com:
  * Estrutura do projeto 
  * Arquivo readme de documentação dos passos realizados
