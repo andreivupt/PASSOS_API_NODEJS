@@ -71,7 +71,7 @@ module.exports = {
 
 #### Alterar o arquivo 'rotas.js'
 ```
-/ Importar pacote do express
+// Importar pacote do express
 const { Router } = require('express');
 // Instanciar o Router na variavel router
 const router = Router();
@@ -95,8 +95,10 @@ module.exports = router;
 ```
 
 ## TAREFA
-
-#### Criar as outras 4 requisições para os métodos GET, POST, PUT e DELETE para exibir os conteúdos de cada rota retornados pelas funções do 'crudController'
+- Rodar o camando 'npm start' para subir o servidor
+- Validar que o servidor continua rodando com últimas alterações
+- Abrir o insomnia 
+- Testar as 4 requisições para os métodos GET, POST, PUT e DELETE e validar os conteúdos de cada rota retornados pelas funções do 'crudController'
 
 ## Conclusão do Passo 5
 #### URL do repositório com:

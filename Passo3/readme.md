@@ -91,6 +91,10 @@ const router = require('./routes/rotas');
 app.use('/api', router);
 ```
 
+#### Definição da estrutura e configuração do projeto
+
+<img src="../assets/estrutura_passo3.png">
+
 #### Atualizar projeto no gitHub
 * Adicionar todos arquivos ao versionamento
 ```

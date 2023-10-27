@@ -95,7 +95,7 @@ const express = require('express');
 
 * Importar o pacote dotenv, gerenciador de variáveis de ambiente
 ```
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 ```
 
 * Instanciar o express na variável app
@@ -155,6 +155,11 @@ npm run start
 ```
 
 <img src="../assets/npm_start_1.png">
+
+#### Parar execução do servidor no termial com gitBash
+```
+Ctrl + C
+```
 
 #### Atualizar projeto no gitHub
 * Adicionar todos arquivos ao versionamento
