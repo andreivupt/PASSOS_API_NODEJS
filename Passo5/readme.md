@@ -37,7 +37,7 @@ npm i
 
 #### Criar pasta 'controllers' dentro da pasta 'src'
 ```
-mkdir scr/controllers
+mkdir src/controllers
 ```
 #### Criar arquivo 'crudController.js' na pasta 'controllers'
 ```
