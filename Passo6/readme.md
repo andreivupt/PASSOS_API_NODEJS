@@ -35,9 +35,9 @@ npm i
 
 #### Instalar o pacote mysql2
 
-````
+```
 npm i mysql2
-``
+```
 
 #### Dentro da pasta 'src', vamos criar uma pasta de nome 'config'. Dentro desta pasta vamos criar um arquivo com nome 'db.js' e colar o código:
 
