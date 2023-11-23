@@ -89,3 +89,7 @@ DB_PASSWORD =
 DB_DATABASE =
 DB_PORT =
 ```
+
+## Conclusão do Passo 6
+
+* Atualizar repositório no gitHub
